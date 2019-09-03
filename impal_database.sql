@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 02, 2019 at 03:38 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.8
+-- Generation Time: Sep 03, 2019 at 06:17 AM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `impal database`
+-- Database: `impal_database`
 --
 
 -- --------------------------------------------------------
@@ -35,6 +35,17 @@ CREATE TABLE `admin` (
   `password` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id_admin`, `nama_admin`, `username`, `password`) VALUES
+('1301111111', 'Wira', 'wiranata', '123456789'),
+('1302222222', 'Annas', 'annaswahyu', '123456789'),
+('1303333333', 'Vio', 'viosagara', '123456789'),
+('1304444444', 'Vivin', 'alvinda', '123456789'),
+('1305555555', 'Ary', 'aryprasetyo', '123456789');
+
 -- --------------------------------------------------------
 
 --
@@ -45,7 +56,7 @@ CREATE TABLE `barang` (
   `id_barang` varchar(10) NOT NULL,
   `nama_barang` varchar(20) NOT NULL,
   `deskripsi_barang` text NOT NULL,
-  `foto_barang` blob NULL,
+  `foto_barang` blob NOT NULL,
   `harga` int(11) NOT NULL,
   `id_pelelang` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -71,7 +82,7 @@ CREATE TABLE `kolektor` (
 CREATE TABLE `lelang` (
   `id_lelang` varchar(10) NOT NULL,
   `nama_lelang` varchar(20) NOT NULL,
-  `waktu_lelang` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `waktu_lelang` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `harga_akhir` int(11) NOT NULL,
   `id_kolektor` varchar(10) NOT NULL,
   `id_barang` varchar(10) NOT NULL
@@ -147,42 +158,3 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-
---DDL END
---DML START
-
-INSERT INTO admin ('1301111111','Wira','wiranata','123456789');
-INSERT INTO admin ('1302222222','Annas','annaswahyu','123456789');
-INSERT INTO admin ('1303333333','Vio','viosagara','123456789');
-INSERT INTO admin ('1304444444','Vivin','alvinda','123456789')2
-INSERT INTO admin ('1305555555','Ary','aryprasetyo','123456789');
-
-INSERT INTO barang ('1001111111','Meja','Original dari produk pilihan di indonesia','','10000','2301111111');
-INSERT INTO barang ('1002222222','Kursi','Original dari produk pilihan di indonesia','','10000','2302222222');
-INSERT INTO barang ('1003333333','Rak','Original dari produk pilihan di indonesia','','10000','2303333333');
-INSERT INTO barang ('1004444444','Lemari','Original dari produk pilihan di indonesia','','10000','2304444444');
-INSERT INTO barang ('1005555555','Kasur','Original dari produk pilihan di indonesia','','10000','2305555555');
-
-INSERT INTO kolektor ('3301111111','wirana','123456789');
-INSERT INTO kolektor ('3302222222','annaswa','123456789');
-INSERT INTO kolektor ('3303333333','viosaga','123456789');
-INSERT INTO kolektor ('3304444444','vinda','123456789');
-INSERT INTO kolektor ('3305555555','arypras','123456789');
-
-INSERT INTO lelang ('1201111111','Lelang ','','10000','3301111111','1001111111');
-INSERT INTO lelang ('1202222222','Lelang ','','10000','3302222222','1002222222');
-INSERT INTO lelang ('1203333333','Lelang ','','10000','3303333333','1003333333');
-INSERT INTO lelang ('1204444444','Lelang ','','10000','3304444444','1004444444');
-INSERT INTO lelang ('1205555555','Lelang ','','10000','3305555555','1005555555');
-
-INSERT INTO pelelang ('4301111111','wiran','123456789');
-INSERT INTO pelelang ('4302222222','annasw','123456789');
-INSERT INTO pelelang ('4303333333','viosag','123456789');
-INSERT INTO pelelang ('4304444444','vind','123456789');
-INSERT INTO pelelang ('4305555555','arypra','123456789');
-
-SELECT * FROM admin;
-SELECT * FROM barang;
-SELECT * FROM kolektor;
-SELECT * FROM lelang;
-SELECT * FROM pelelang;
