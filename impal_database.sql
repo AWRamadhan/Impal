@@ -156,30 +156,35 @@ INSERT INTO admin ('1302222222','Annas','annaswahyu','123456789');
 INSERT INTO admin ('1303333333','Vio','viosagara','123456789');
 INSERT INTO admin ('1304444444','Vivin','alvinda','123456789')2
 INSERT INTO admin ('1305555555','Ary','aryprasetyo','123456789');
+INSERT INTO admin ('1306666666','rand','random','987654321');
 
 INSERT INTO barang ('1001111111','Meja','Original dari produk pilihan di indonesia','','10000','2301111111');
 INSERT INTO barang ('1002222222','Kursi','Original dari produk pilihan di indonesia','','10000','2302222222');
 INSERT INTO barang ('1003333333','Rak','Original dari produk pilihan di indonesia','','10000','2303333333');
 INSERT INTO barang ('1004444444','Lemari','Original dari produk pilihan di indonesia','','10000','2304444444');
 INSERT INTO barang ('1005555555','Kasur','Original dari produk pilihan di indonesia','','10000','2305555555');
+INSERT INTO barang ('1005555555','Lampu','Original dari produk pilihan di indonesia','','10000','2306666666');
 
 INSERT INTO kolektor ('3301111111','wirana','123456789');
 INSERT INTO kolektor ('3302222222','annaswa','123456789');
 INSERT INTO kolektor ('3303333333','viosaga','123456789');
 INSERT INTO kolektor ('3304444444','vinda','123456789');
 INSERT INTO kolektor ('3305555555','arypras','123456789');
+INSERT INTO kolektor ('3306666666','randoms','123456789');
 
 INSERT INTO lelang ('1201111111','Lelang ','','10000','3301111111','1001111111');
 INSERT INTO lelang ('1202222222','Lelang ','','10000','3302222222','1002222222');
 INSERT INTO lelang ('1203333333','Lelang ','','10000','3303333333','1003333333');
 INSERT INTO lelang ('1204444444','Lelang ','','10000','3304444444','1004444444');
 INSERT INTO lelang ('1205555555','Lelang ','','10000','3305555555','1005555555');
+INSERT INTO lelang ('1206666666','Lelang ','','10000','3306666666','1006666666');
 
 INSERT INTO pelelang ('4301111111','wiran','123456789');
 INSERT INTO pelelang ('4302222222','annasw','123456789');
 INSERT INTO pelelang ('4303333333','viosag','123456789');
 INSERT INTO pelelang ('4304444444','vind','123456789');
 INSERT INTO pelelang ('4305555555','arypra','123456789');
+INSERT INTO pelelang ('4306666666','rands','123456789');
 
 SELECT * FROM admin;
 SELECT * FROM barang;
