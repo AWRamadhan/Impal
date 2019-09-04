@@ -3,9 +3,15 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Sep 02, 2019 at 03:38 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
+=======
+-- Generation Time: Sep 03, 2019 at 06:17 AM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.2
+>>>>>>> fba83556d2d23409c09093113ce85b9d338e439c
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -35,6 +41,20 @@ CREATE TABLE `admin` (
   `password` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
+=======
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id_admin`, `nama_admin`, `username`, `password`) VALUES
+('1301111111', 'Wira', 'wiranata', '123456789'),
+('1302222222', 'Annas', 'annaswahyu', '123456789'),
+('1303333333', 'Vio', 'viosagara', '123456789'),
+('1304444444', 'Vivin', 'alvinda', '123456789'),
+('1305555555', 'Ary', 'aryprasetyo', '123456789');
+
+>>>>>>> fba83556d2d23409c09093113ce85b9d338e439c
 -- --------------------------------------------------------
 
 --
@@ -71,7 +91,11 @@ CREATE TABLE `kolektor` (
 CREATE TABLE `lelang` (
   `id_lelang` varchar(10) NOT NULL,
   `nama_lelang` varchar(20) NOT NULL,
+<<<<<<< HEAD
   `waktu_lelang` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+=======
+  `waktu_lelang` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+>>>>>>> fba83556d2d23409c09093113ce85b9d338e439c
   `harga_akhir` int(11) NOT NULL,
   `id_kolektor` varchar(10) NOT NULL,
   `id_barang` varchar(10) NOT NULL
@@ -147,3 +171,12 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+<<<<<<< HEAD
+=======
+
+SELECT * FROM admin;
+SELECT * FROM barang;
+SELECT * FROM kolektor;
+SELECT * FROM lelang;
+SELECT * FROM pelelang;
+>>>>>>> 734804d9a5009cff0a30c8fbc7b8adbe7f7543a1
