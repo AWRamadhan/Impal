@@ -3,7 +3,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1>Lelang</h1>
+        <h1 className="text-center">Lelang</h1>
         <h3>Hmmm apa nih</h3>
       </div>
     );
