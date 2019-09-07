@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          gilang adhi
+          Wira lagi nge test
         </a>
       </header>
     </div>
