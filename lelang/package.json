@@ -3,11 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "bootstrap": "^4.3.1",
-=======
-    "bootstrap": "^4.1.1",
->>>>>>> 638b429411d418e8ab9c15ddc24d663634fa8e0f
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
