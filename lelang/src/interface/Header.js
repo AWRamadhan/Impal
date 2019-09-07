@@ -3,8 +3,8 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        <h1 className="text-center">Lelang</h1>
-        <h3>Hmmm apa nih</h3>
+        <h1 className="text-center font-weight-bold">Lelang</h1>
+        <h4 className="text-center font-weight-light">Hmmm apa nih</h4>
       </div>
     );
   }

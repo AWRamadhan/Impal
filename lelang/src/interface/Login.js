@@ -5,13 +5,9 @@ class Login_Forms extends Component {
     return (
       <div className="Login">
         <Header />
-        <form>
-          <h2>Login</h2>
-          <p>Username</p>
-          <input type="text"></input>
-          <p>Password</p>
-          <input type="text"></input>
-          <input type="submit"></input>
+        <form className="text-center">
+          <div className="form-group"></div>
+          <button type="submit">Masuk</button>
         </form>
       </div>
     );
