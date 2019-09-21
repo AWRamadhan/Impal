@@ -1,1 +1,0 @@
-You can read tutorial https://www.roytuts.com/codeigniter-rest-reactjs-crud/
