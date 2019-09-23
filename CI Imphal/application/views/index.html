@@ -45,11 +45,49 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
+          <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li>
 
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
+
+  <!--Modal box Sign In-->
+  
+  <div class="modal fade" id="login" style="top:15%; color: black;" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" style="padding-left:43%;" >Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="position: relative; padding: 50px">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check" style="margin-bottom: 5%">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-success" style="width: 100%">Sign In</button>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!--/ Modal box Sign In-->
 
   <!-- #intro -->
   
@@ -132,7 +170,7 @@
         <div class="row">
 
           <div class="col-lg-4 box">
-            <i class="ion-android-alert"></i>
+            <i class="ion-ios-bookmarks-outline"></i>
             <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
@@ -249,7 +287,6 @@
 
 
   <!-- JavaScript Libraries -->
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <script src="assets/lib/jquery/jquery.min.js"></script>
   <script src="assets/lib/jquery/jquery-migrate.min.js"></script>
   <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
