@@ -46,7 +46,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#hot">Hot Product</a></li>
+          <li><a href="#portfolio">Hot Product</a></li>
           <li><a href="#">Your Profile</a></li>
           <li><a href="#">Log Out</a></li>
 
@@ -54,43 +54,6 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-
-  <!--Modal box Sign In-->
-  
-  <div class="modal fade" id="login" style="top:15%; color: black;" role="dialog">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" style="padding-left:43%;" >Login</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" style="position: relative; padding: 50px">
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-check" style="margin-bottom: 5%">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-outline-success" style="width: 100%">Sign In</button>
-            </div>
-          </form>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <!--/ Modal box Sign In-->
 
   <!-- #intro -->
   
@@ -254,7 +217,168 @@
     
     <!-- #about -->
 
+    <!-- #hot product -->
 
+    <section id="portfolio"  class="section-bg" >
+            <div class="container">
+      
+              <header class="section-header">
+                <h3 class="section-title">Hot Product</h3>
+              </header>
+      
+              <div class="row">
+                <div class="col-lg-12">
+                  <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Card</li>
+                    <li data-filter=".filter-web">Web</li>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="row portfolio-container">
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">App 1</a></h4>
+                      <p>App</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">Web 3</a></h4>
+                      <p>Web</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">App 2</a></h4>
+                      <p>App</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
+                      <a href="assets//portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">Card 2</a></h4>
+                      <p>Card</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">Web 2</a></h4>
+                      <p>Web</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">App 3</a></h4>
+                      <p>App</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">Card 1</a></h4>
+                      <p>Card</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">Card 3</a></h4>
+                      <p>Card</p>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="portfolio-wrap">
+                    <figure>
+                      <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
+                      <a href="assets/img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                      <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                    </figure>
+      
+                    <div class="portfolio-info">
+                      <h4><a href="#">Web 1</a></h4>
+                      <p>Web</p>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+          </section><!-- #portfolio -->
+        
 
   </main>
 
@@ -275,7 +399,8 @@
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Hot Product</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Profile</a></li>
             </ul>
           </div>
 

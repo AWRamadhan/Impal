@@ -35,7 +35,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'signup.html';
+$config['index_page'] = 'index2.html';
 
 /*
 |--------------------------------------------------------------------------
