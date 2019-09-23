@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Home from "./interface/LelangSelected";
+import Home from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 
