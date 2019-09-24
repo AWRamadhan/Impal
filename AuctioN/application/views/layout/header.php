@@ -12,6 +12,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
+          <li><a href="#">Bid</a></li>
           <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li>
           <li><a href="#">Sign Up</a></li>
         </ul>
