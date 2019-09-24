@@ -15,7 +15,8 @@
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Hot Product</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Profile</a></li>
             </ul>
           </div>
 
