@@ -31,28 +31,6 @@
 </head>
 
 <body>
-
-  <!-- #header -->
-
-  <header id="header">
-    <div class="container-fluid">
-
-      <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">AuctioN</a></h1>
-
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li>
-          <li><a href="#">Sign Up</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
   <!--Modal box Sign In-->
   
   <div class="modal fade" id="login" style="top:15%; color: black;" role="dialog">
@@ -255,57 +233,5 @@
 
 
   </main>
-
-  <!-- #footer -->
-  
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>AuctioN</h3>
-            <p>Auction adalah proses membeli dan menjual barang atau jasa dengan cara menawarkan kepada penawar, menawarkan tawaran harga lebih tinggi, dan kemudian menjual barang kepada penawar harga tertinggi.</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- #footer -->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-
-  <!-- JavaScript Libraries -->
-  <script src="assets/lib/jquery/jquery.min.js"></script>
-  <script src="assets/lib/jquery/jquery-migrate.min.js"></script>
-  <script src="assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/lib/easing/easing.min.js"></script>
-  <script src="assets/lib/superfish/hoverIntent.js"></script>
-  <script src="assets/lib/superfish/superfish.min.js"></script>
-  <script src="assets/lib/wow/wow.min.js"></script>
-  <script src="assets/lib/waypoints/waypoints.min.js"></script>
-  <script src="assets/lib/counterup/counterup.min.js"></script>
-  <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="assets/lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="assets/lib/lightbox/js/lightbox.min.js"></script>
-  <script src="assets/lib/touchSwipe/jquery.touchSwipe.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="assets/contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="assets/js/main.js"></script>
-
 </body>
 </html>
