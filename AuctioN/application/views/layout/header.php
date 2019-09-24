@@ -34,7 +34,7 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">AuctioN</a></h1>
+        <h1><a href="#intro" class="scrollto">Auction</a></h1>
 
       </div>
 

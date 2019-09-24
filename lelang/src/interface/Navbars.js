@@ -1,35 +1,41 @@
 import React, { Component } from "react";
-import { Navbar, Container } from 'react-bootstrap';
-import { Nav } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
-import { FormControl } from 'react-bootstrap';
+
 class Navbars extends Component {
   render() {
     return (
       <div className="navbars">
-        <Navbar bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand href="#home">
-              <img
-                src="https://thumbs.dreamstime.com/b/auction-vector-stamp-isolated-white-background-84941491.jpg"
-                width="40"
-                height="40"
-                className="d-inline-block align-top"
-                alt="AuctioN"
-              />
-            </Navbar.Brand>
-            <Nav className="mr-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-            </Nav>
-            <Form inline>
-              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-              <Button variant="outline-info">Search</Button>
-            </Form>
-          </Container>
-        </Navbar>
+        <div className="container-fluid">
+          <div id="logo" className="pull-left">
+            <h1>
+              <a href="#intro" className="scrollto">
+                Auction
+              </a>
+            </h1>
+          </div>
+
+          <nav id="nav-menu-container">
+            <ul className="nav-menu">
+              <li className="menu-active">
+                <a href="#intro">Home</a>
+              </li>
+              <li>
+                <a href="#about">About Us</a>
+              </li>
+              <li>
+                <a href="#">Bid</a>
+              </li>
+              <li>
+                <a href="#portfolio">Hot Product</a>
+              </li>
+              <li>
+                <a href="#">Your Profile</a>
+              </li>
+              <li>
+                <a href="#">Log Out</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     );
   }
