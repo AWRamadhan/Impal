@@ -12,7 +12,7 @@
   <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Favicons -->
-  <link rel="icon" href="<?= base_url(); ?>assets/imgfavicon.ico" type="image/gif"> 
+  <link rel="icon" href="<?= base_url(); ?>assets/img/favicon.ico" type="image/gif"> 
 
   <!-- Libraries CSS Files -->
   <link href="assets/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
