@@ -8,10 +8,29 @@ class Login_Forms extends Component {
       <div className="Login">
         <Navbars />
         <Jumbotron>
-          <Header />
+          <h3 className="text-center">Login Page</h3>
           <form className="text-center">
-            <div className="form-group"></div>
-            <button type="submit">Masuk</button>
+            <div className="form-group">
+              <label>Username</label>
+              <input
+                type="email"
+                className="form-control"
+                id="username"
+                placeholder="Enter Username"
+              ></input>
+            </div>
+            <div className="form-group">
+              <label>Password</label>
+              <input
+                type="password"
+                className="form-control"
+                id="password"
+                placeholder="Password"
+              ></input>
+            </div>
+            <button className="btn btn-primary" type="submit">
+              Masuk
+            </button>
           </form>
         </Jumbotron>
       </div>
