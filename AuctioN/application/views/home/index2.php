@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
   <!-- #intro --> 
   <section id="intro">
     <div class="intro-container">

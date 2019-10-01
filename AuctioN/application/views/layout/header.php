@@ -40,7 +40,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li class="menu-active"><a href="<?= base_url(); ?>#intro"">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="<?= base_url('bid/index'); ?>">Bid</a></li>
           <li><a href="#portfolio">Hot Product</a></li>
