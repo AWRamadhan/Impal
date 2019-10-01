@@ -42,7 +42,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#">Bid</a></li>
+          <li><a href="<?= base_url('bid/index'); ?>">Bid</a></li>
           <li><a href="#portfolio">Hot Product</a></li>
           <li><a href="#">Your Profile</a></li>
           <li><a href="#">Log Out</a></li>
