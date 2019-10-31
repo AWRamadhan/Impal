@@ -24,3 +24,7 @@
 	height: 100%;
 	background-image: linear-gradient(black, white);
 }
+
+.form-login {
+	margin-top: 1%;
+}
