@@ -11,7 +11,7 @@ import "../style.css";
 class form extends Component {
 	render() {
 		return (
-			<Jumbotron>
+			<Jumbotron className="form-login">
 				<Form>
 					<h3 className="text-center">Auction</h3>
 					<div className="d-flex justify-content-center">
