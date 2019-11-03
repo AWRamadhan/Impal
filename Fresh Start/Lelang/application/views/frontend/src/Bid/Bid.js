@@ -15,7 +15,7 @@ class bid extends Component {
 					<img className="bid-logo" src={logo}></img>
 				</div>
 				<h3 className="text-center">Bid</h3>
-				<p className="text-center">Let's fuck this bitch</p>
+				<p className="text-center">Let's fuck this bitch, yes</p>
 				<div className="line"></div>
 				<Container>
 					<Row>
@@ -28,8 +28,6 @@ class bid extends Component {
 						<Col>
 							<Items />
 						</Col>
-					</Row>
-					<Row>
 						<Col>
 							<Items />
 						</Col>

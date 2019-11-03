@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import pict_bid from "./bid.png";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import "../style.css";
+import Button from "react-bootstrap/Button";
 
 class items extends Component {
 	render() {
@@ -13,7 +14,10 @@ class items extends Component {
 					<h5>Start Price : Rp6969</h5>
 					<h5>Current Price : Rp6969</h5>
 					<h5>Expire at : 69-69-69</h5>
-					<h4 className="text-center countdown">00:00</h4>
+					<h4 className="text-center mgtop">00:00</h4>
+					<Button className="btn-dark btn-lg btn-block mgtop" type="submit">
+						Join
+					</Button>
 				</Jumbotron>
 			</div>
 		);
