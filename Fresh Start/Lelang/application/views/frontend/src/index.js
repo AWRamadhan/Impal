@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Home from "./Bid/Bid";
+import Home from "./Item/Desc";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
