@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Form from "./Form";
+import Form from "./form_regist";
 import "../style.css";
 import Card from "react-bootstrap/Card";
-class login extends Component {
+class register_view extends Component {
 	render() {
 		return (
 			<div className="login">
@@ -26,4 +26,4 @@ class login extends Component {
 	}
 }
 
-export default login;
+export default register_view;

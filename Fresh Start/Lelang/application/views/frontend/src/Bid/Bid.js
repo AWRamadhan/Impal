@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import logo from "./bid_logo.svg";
+import "../style.css";
 
 class bid extends Component {
 	render() {
