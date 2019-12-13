@@ -1,0 +1,30 @@
+.center-content {
+	width: 100px;
+	margin: 30px;
+}
+.center-content-logo {
+	width: 150px;
+}
+.bid-logo {
+	width: 100px;
+	margin-top: 30px;
+}
+
+.mgtop {
+	margin-top: 40px;
+}
+
+.line {
+	width: 100%;
+	border-bottom: 3px solid black;
+	margin-bottom: 50px;
+}
+
+.login {
+	height: 100%;
+	background-image: linear-gradient(black, white);
+}
+
+.form-login {
+	margin-top: 1%;
+}

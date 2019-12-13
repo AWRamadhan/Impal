@@ -5,6 +5,6 @@ class React extends CI_Controller
 {
     public function index()
     {
-        $this->load->view('react_view');
+        $this->load->view('react/checkout');
     }
 }
