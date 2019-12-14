@@ -34,7 +34,7 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
     <!-- Load our React component. -->
-    <script src="assets/js/loadcheckout.js"></script>
+    <script src="assets/js/load_checkout.js"></script>
 
   </body>
 </html>
